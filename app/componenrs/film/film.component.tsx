@@ -63,6 +63,7 @@ const Film = ({ film }: { film: FilmType }) => {
                 "px-4",
                 "text-sm",
                 "flex  flex-col",
+                "text-center",
                 selectedSession === index &&
                   "border-white  bg-white  text-slate-900"
               )}
