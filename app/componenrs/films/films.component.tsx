@@ -5,7 +5,7 @@ import { Film } from "../film/film.component";
 
 const Films = ({ films }: { films: FilmType[] }) => {
   return (
-    <div className="grid  grid-cols-1  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4  gap-4  bg-sky-950  text-white  p-4">
+    <div className="grid  grid-cols-1  md:grid-cols-2  lg:grid-cols-3  xl:grid-cols-4  gap-4  bg-slate-800  text-white  p-4">
       {films.map((film) => (
         <Film key={film.FilmId} film={film} />
       ))}
